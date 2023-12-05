@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTELES DE BALBERITH</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html"></a>
+    </nav>
+    <div class="header-content container">
+        <div class="content">
+        <h1>Espacio para no Fumadores</h1>
+        <p>Este espacio es para clientes no fumaderes, es un ambiente fuera del humo y del mal olor</p>
+
+        </div>
+        <img src="IMG/nofumar.jpg" alt="">
+
+        <div class="header-content container">
+            <div class="content">
+            <h1>Hotel Plaza</h1>
+            <p>El mejor de todos</p>
+    
+            </div>
+            <img src="IMG/mostradorhotel.jpg" alt="">
+
+            <div class="header-content container">
+                <div class="content">
+                <h1>VISTA DE LA HABITACION</h1>
+                <p>Esta habitacion muestra la zona de reservas con la mejor vista</p>
+        
+                </div>
+                <img src="IMG/3.jpg" alt="">
+
+                <div class="header-content container">
+                    <div class="content">
+                    <h1>RESERVA</h1>
+                    <p>Tenemos los lugares mas comodos y para que traiga a la mosita</p>
+            
+                    </div>
+                    <img src="IMG/reserva de hotel.png" alt="">
+
+                    <main>
+                        <section id="reservaciones"></section>
+                    </main>
+                        
+
+        
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestión de Reservas</title>
+        <style>
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+            .form-group {
+                margin-bottom: 15px;
+            }
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .form-group input, .form-group select {
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .form-group button {
+                padding: 10px 20px;
+                background-color: blue;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Gestión de Reservas</h1>
+        <form id="reservation-form">
+            <div class="form-group">
+                <label for="nombre"><strong>Nombre<strong></label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="tipoCliente">Tipos de Clientes</label>
+                <select id="tipoCliente" name="tipoCliente" required>
+                    <option value="individual">Individual</option>
+                    <option value="empresa">Empresa</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa">
+            </div>
+            <div class="form-group">
+                <label for="numHabitacion">Números de Habitaciónes</label>
+                <input type="number" id="numHabitacion" name="numHabitacion" required>
+            </div>
+            <div class="form-group">
+                <label for="tipoHabitacion">Tipos de Habitaciónes</label>
+                <select id="tipoHabitacion" name="tipoHabitacion" required>
+                    <option value="sencilla">Sencilla con solo tv</option>
+                    <option value="doble">Doble con gasimba</option>
+                    <option value="suite">Suite con coneja</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tipoPension">Tipos de Pensiónes</label>
+                <select id="tipoPension" name="tipoPension" required>
+                    <option value="desayuno">Desayuno</option>
+                    <option value="media">Media pension</option>
+                    <option value="completa"> Pension completa</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="numeroTarjeta">Número de Tarjeta de Crédito</label>
+                <input type="text" id="numeroTarjeta" name="numeroTarjeta">
+            </div>
+            <div class="form-group">
+                <button type="submit"><a href="reservador.html"></a>Finalizar las Reservas adquiridas</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        document.getElementById('reservation-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let formData = new FormData(event.target);
+        });
+    </script>
+    </body>
+    </html>
+
+
+</header> 
+</body>
+</body>
+</html>

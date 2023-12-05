@@ -1,0 +1,55 @@
+div{
+    background-image: url(IMG/fondo2.png); 
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: #00BDFF;
+    color: black;
+    text-align:center ;
+    padding:0;
+    
+    
+    
+}
+
+img.image{
+    font-family: 15px arial;
+    font-size: 15px;
+    width: 30vh;
+    height: 10vh;
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 20px;
+}
+img.image{
+    font-family: 15px arial;
+    font-size: 15px;
+    width: 30vh;
+    height: 10vh;
+}
+.sociales {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+    }
+.socicon {
+    width: 2rem;
+    height: 2rem;
+    }
+    
